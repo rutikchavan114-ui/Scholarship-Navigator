@@ -142,17 +142,27 @@ class Handler(SimpleHTTPRequestHandler):
         return user
 
     def save_state(self, db, user_id, payload):
+        row = db.execute("SELECT payload FROM portal_state WHERE user_id=?", (user_id,)).fetchone()
+        existing = json.loads(row["payload"]) if row else {}
         allowed = {"profile", "applications", "documents", "notifications", "saved", "sentEmails", "language", "page", "catalogVersion"}
-        state = {key: payload[key] for key in allowed if key in payload}
+        state = dict(existing)
+        for key in allowed:
+            if key in payload:
+                state[key] = payload[key]
         state["catalogVersion"] = 2
-        if not isinstance(state.get("profile", {}), dict):
+        if "profile" in state and not isinstance(state.get("profile", {}), dict):
             raise ValueError("Student profile must be an object")
         for key in ("applications", "documents", "notifications", "sentEmails", "saved"):
             if key in state and not isinstance(state[key], list):
                 raise ValueError(f"{key} must be a list")
             if len(state.get(key, [])) > 500:
                 raise ValueError(f"Too many {key} records")
-        state["profile"]["email"] = payload.get("profile", {}).get("email", "")
+        if "profile" in state and isinstance(state["profile"], dict):
+            if "profile" in payload and isinstance(payload["profile"], dict) and "email" in payload["profile"]:
+                state["profile"]["email"] = payload["profile"]["email"]
+            elif "email" not in state["profile"]:
+                user_row = db.execute("SELECT email FROM users WHERE id=?", (user_id,)).fetchone()
+                state["profile"]["email"] = user_row["email"] if user_row else ""
         db.execute("INSERT INTO portal_state(user_id,payload,updated_at) VALUES(?,?,?) ON CONFLICT(user_id) DO UPDATE SET payload=excluded.payload,updated_at=excluded.updated_at",
                    (user_id, json.dumps(state, ensure_ascii=False), int(time.time())))
         db.commit()

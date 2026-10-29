@@ -50,6 +50,32 @@ let state = {
   sentEmails: []
 };
 
+function createDefaultProfile(name = "", email = "") {
+  return {
+    hasCompletedIntake: false,
+    name: name,
+    email: email,
+    phone: "",
+    institution: "",
+    course: "",
+    year: "First year",
+    semester: "1",
+    gpa: "",
+    percentage: "",
+    income: "",
+    domicile: "Maharashtra",
+    category: "General",
+    gender: "Male",
+    isFemaleStem: false,
+    isFirstGen: false,
+    isPwd: false,
+    isSports: false,
+    isRural: false,
+    isInnovator: false,
+    completion: 0
+  };
+}
+
 // Core interface translations. Scholarship titles and official programme names
 // remain in their source language so students can find the exact scheme online.
 const interfaceText = {
@@ -487,7 +513,8 @@ function calculateScholarshipMatches(profile = state.profile) {
       }
     }
 
-    if (elig.isStem && (p.course.toLowerCase().includes("tech") || p.course.toLowerCase().includes("computer") || p.course.toLowerCase().includes("science"))) {
+    const courseName = (p.course || "").toLowerCase();
+    if (elig.isStem && (courseName.includes("tech") || courseName.includes("computer") || courseName.includes("science"))) {
       score += 10;
       reasons.push(`Enrolled in eligible STEM technology program`);
     }
@@ -654,12 +681,17 @@ function renderAuthScreen() {
         state.notifications = [];
         state.sentEmails = [];
         state.saved = new Set();
-        state.profile.hasCompletedIntake = false;
+        state.profile = createDefaultProfile(result.user.name, result.user.email);
       }
-      state.appMode = "intake";
+      const shouldGoToPortal = Boolean(state.profile.hasCompletedIntake);
+      state.appMode = shouldGoToPortal ? "portal" : "intake";
       persistState();
       toast(`Welcome, ${state.profile.name.split(" ")[0]}!`);
-      renderIntakeScreen();
+      if (shouldGoToPortal) {
+        renderPortal();
+      } else {
+        renderIntakeScreen();
+      }
     } catch (err) {
       toast(err.message || "Unable to reach the backend. Run start.command first.");
     }
@@ -679,10 +711,15 @@ function renderAuthScreen() {
       state.profile.email = result.user.email;
       state.profile.name = result.user.name;
       mergeServerState(result.state);
-      state.appMode = "intake";
+      const shouldGoToPortal = Boolean(state.profile.hasCompletedIntake);
+      state.appMode = shouldGoToPortal ? "portal" : "intake";
       persistState();
       toast("Signed in to the demo account.");
-      renderIntakeScreen();
+      if (shouldGoToPortal) {
+        renderPortal();
+      } else {
+        renderIntakeScreen();
+      }
     } catch (err) {
       toast(err.message || "Unable to reach the backend. Run start.command first.");
     }
@@ -768,12 +805,12 @@ function renderIntakeScreen() {
           <div class="field-grid">
             <div class="field">
               <label>Cumulative GPA (10 pt scale)</label>
-              <input type="number" step="0.1" min="4.0" max="10.0" name="gpa" id="intake-gpa" value="${esc(p.gpa || "8.6")}">
+              <input type="number" step="0.1" min="4.0" max="10.0" name="gpa" id="intake-gpa" value="${esc(p.gpa || "")}">
               <span class="field-hint">Auto-syncs with percentage</span>
             </div>
             <div class="field">
               <label>Overall Percentage (%)</label>
-              <input type="number" min="40" max="100" name="percentage" id="intake-pct" value="${esc(p.percentage || "86")}">
+              <input type="number" min="40" max="100" name="percentage" id="intake-pct" value="${esc(p.percentage || "")}">
               <span class="field-hint">Merit evaluation metric</span>
             </div>
           </div>
@@ -786,7 +823,7 @@ function renderIntakeScreen() {
 
           <div class="field">
             <label>Annual Family Income (₹)</label>
-            <input type="number" step="5000" name="income" id="intake-income" value="${esc(p.income || "180000")}" required>
+            <input type="number" step="5000" name="income" id="intake-income" value="${esc(p.income || "")}" required>
             <div class="chip-group">
               <button type="button" class="chip-btn ${Number(p.income) <= 150000 ? "active" : ""}" data-chip-income="120000">&lt; ₹1.5 Lakh</button>
               <button type="button" class="chip-btn ${Number(p.income) > 150000 && Number(p.income) <= 250000 ? "active" : ""}" data-chip-income="180000">₹1.8L (MahaDBT/NSP)</button>
@@ -920,6 +957,46 @@ function renderIntakeScreen() {
   });
 
   $("#btn-quick-intake-fill").onclick = () => {
+    const form = $("#onboarding-intake-form");
+    if (!form) return;
+    const inst = $("#intake-inst");
+    if (inst) inst.value = "G. H. Raisoni International Skill Tech University";
+    const course = $("#intake-course");
+    if (course) course.value = "B.Tech Computer Science & Engineering";
+    const yearSelect = $('select[name="year"]', form);
+    if (yearSelect) yearSelect.value = "First year";
+    const semSelect = $('select[name="semester"]', form);
+    if (semSelect) semSelect.value = "Sem 1";
+    const gpa = $("#intake-gpa");
+    if (gpa) gpa.value = "8.6";
+    const pct = $("#intake-pct");
+    if (pct) pct.value = "86";
+    const income = $("#intake-income");
+    if (income) income.value = "180000";
+    const domicile = $('select[name="domicile"]', form);
+    if (domicile) domicile.value = "Maharashtra";
+    const category = $('select[name="category"]', form);
+    if (category) category.value = "OBC";
+    const maleRadio = $('input[name="gender"][value="Male"]', form);
+    if (maleRadio) maleRadio.checked = true;
+    const firstGen = $('input[name="isFirstGen"]', form);
+    if (firstGen) firstGen.checked = true;
+    const rural = $('input[name="isRural"]', form);
+    if (rural) rural.checked = true;
+    const innovator = $('input[name="isInnovator"]', form);
+    if (innovator) innovator.checked = true;
+    const pwd = $('input[name="isPwd"]', form);
+    if (pwd) pwd.checked = false;
+    const femaleStem = $('input[name="isFemaleStem"]', form);
+    if (femaleStem) femaleStem.checked = false;
+
+    $$("[data-chip-inst]").forEach(x => {
+      x.classList.toggle("active", x.dataset.chipInst === "G. H. Raisoni International Skill Tech University");
+    });
+    $$("[data-chip-income]").forEach(x => {
+      x.classList.toggle("active", x.dataset.chipIncome === "180000");
+    });
+
     toast("Pre-filled sample student profile!");
   };
 
@@ -2019,7 +2096,7 @@ function renderApplications() {
                   </td>
                   <td>
                     ${dateLabel(a.s.deadline)}
-                    <div class="table-secondary">${Math.max(0, daysLeft(a.s.deadline))} days remaining</div>
+                    ${daysLeft(a.s.deadline) !== null ? `<div class="table-secondary">${Math.max(0, daysLeft(a.s.deadline))} days remaining</div>` : `<div class="table-secondary">Ongoing / Check portal</div>`}
                   </td>
                   <td>
                     <span class="status-dot ${statusClass(a.status)}">${statusName(a.status)}</span>
@@ -2683,7 +2760,7 @@ async function initializeApp() {
       state.profile.email = result.user.email;
       state.profile.name = result.user.name;
       mergeServerState(result.state);
-      state.appMode = "portal";
+      state.appMode = state.profile.hasCompletedIntake ? "portal" : "intake";
     }
   } catch (err) {
     console.warn("Scholarship Navigator backend is not available. Start the local server to sign in.", err);
