@@ -1,0 +1,130 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="theme-color" content="#11112b"><meta name="description" content="Browse official Indian scholarship schemes, review source-linked eligibility and deadlines, and track your applications.">
+  <title>Scholarship Navigator — Official Scholarship Information and Application Tracking</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="ambient ambient-a"></div><div class="ambient ambient-b"></div>
+  <label class="global-language-switch" aria-label="Choose language">
+    <span aria-hidden="true">🌐</span>
+    <select id="global-language-select" aria-label="Choose language">
+      <option value="en">English</option><option value="hi">हिंदी</option><option value="mr">मराठी</option>
+    </select>
+  </label>
+
+  <!-- ========================================================
+       SCREEN 1: STUDENT LOGIN / AUTHENTICATION VIEW
+       ======================================================== -->
+  <div id="auth-view" class="auth-view-wrap"></div>
+
+  <!-- ========================================================
+       SCREEN 2: ADD YOUR INFORMATION (ONBOARDING INTAKE)
+       ======================================================== -->
+  <div id="intake-view" class="intake-view-wrap" style="display:none"></div>
+
+  <!-- ========================================================
+       SCREEN 3: MAIN SCHOLARSHIP PORTAL
+       ======================================================== -->
+  <div id="portal-view" class="app-shell" style="display:none">
+    <aside class="sidebar" id="sidebar">
+      <a class="brand" href="#" data-page="college-dashboard">
+        <span class="brand-icon">
+          <svg viewBox="0 0 24 24"><path d="M3 8.5 12 4l9 4.5-9 4.5-9-4.5Z"/><path d="M6.5 10.5v5.2c3.6 2.8 7.4 2.8 11 0v-5.2M21 9v6"/></svg>
+        </span>
+        <span>scholarship<span class="brand-light">navigator</span></span>
+      </a>
+
+      <div class="workspace-label">COLLEGE PORTAL <span class="live-dot"></span></div>
+      <nav class="nav-group">
+        <button class="nav-link active" data-page="college-dashboard"><span class="nav-ico">🏛</span><span>College Portal</span><span class="nav-badge-hot">AI MATCH</span><kbd>⌘ 1</kbd></button>
+        <button class="nav-link" data-page="edit-info"><span class="nav-ico">✏️</span><span>Edit Your Info</span><kbd>⌘ 2</kbd></button>
+        <button class="nav-link" data-page="discover"><span class="nav-ico">◈</span><span>Discover All</span><span class="nav-count" id="sidebar-scholarship-count">18</span><kbd>⌘ 3</kbd></button>
+        <button class="nav-link" data-page="applications"><span class="nav-ico">▤</span><span>My Applications</span><kbd>⌘ 4</kbd></button>
+        <button class="nav-link" data-page="documents"><span class="nav-ico">▧</span><span>Document Vault</span><kbd>⌘ 5</kbd></button>
+        <button class="nav-link" data-page="deadlines"><span class="nav-ico">◷</span><span>Deadlines Calendar</span><kbd>⌘ 6</kbd></button>
+      </nav>
+
+      <div class="nav-separator"></div>
+      <div class="workspace-label">DISPATCH & ACTIVITY</div>
+      <nav class="nav-group">
+        <button class="nav-link" data-page="emails"><span class="nav-ico">✉</span><span>Email Previews</span><span class="email-badge-count" id="sidebar-email-count">0</span></button>
+        <button class="nav-link" data-page="notifications"><span class="nav-ico">♧</span><span>Notifications</span><span class="notification-count" id="sidebar-notif-count">4</span></button>
+      </nav>
+
+      <div class="sidebar-spacer"></div>
+      
+      <!-- Student Profile Card in Sidebar -->
+      <div class="sidebar-user" id="sidebar-user-block">
+        <div class="avatar avatar-lavender" id="sidebar-avatar">GC</div>
+        <div class="user-text">
+          <strong id="sidebar-student-name">Gajanan Chavan</strong>
+          <span id="sidebar-student-sub">B.Tech CSE Student</span>
+        </div>
+        <button class="btn-logout-sidebar" id="btn-logout" title="Sign out of student account">🚪</button>
+      </div>
+    </aside>
+
+    <main class="main-area">
+      <header class="topbar">
+        <button class="mobile-menu" id="mobile-menu" aria-label="Open menu">☰</button>
+        <div class="breadcrumbs">
+          <span>College Portal</span><span class="crumb-slash">/</span><strong id="crumb-title">Dashboard</strong>
+        </div>
+        <div class="topbar-right">
+          <label class="language-switch" aria-label="Choose language">
+            <span aria-hidden="true">🌐</span>
+            <select id="language-select" aria-label="Choose language">
+              <option value="en">English</option>
+              <option value="hi">हिंदी</option>
+              <option value="mr">मराठी</option>
+            </select>
+          </label>
+          <!-- PROMINENT EDIT YOUR INFO BUTTON IN TOPBAR -->
+          <button class="btn btn-small btn-primary btn-topbar-edit" id="topbar-edit-info-btn">
+            <span>✏️ Edit Your Info</span>
+          </button>
+          
+          <button class="btn btn-small btn-secondary" data-page="emails" title="View sent email application dossiers">
+            <span>✉ Emails</span> <span id="topbar-email-badge">(0)</span>
+          </button>
+
+          <label class="global-search">
+            <span>⌕</span>
+            <input id="global-search" placeholder="Search scholarships, degrees..." aria-label="Search scholarships">
+            <kbd>⌘ K</kbd>
+          </label>
+
+          <button class="top-icon" id="theme-toggle" title="Toggle dark/light appearance" aria-label="Toggle appearance">◐</button>
+          <button class="top-icon notification-trigger" data-page="notifications" aria-label="Notifications">♧<i></i></button>
+
+          <div class="top-profile" id="top-profile-chip" title="Account profile">
+            <div class="avatar avatar-lavender" id="top-avatar">GC</div>
+            <span><strong id="top-student-name">Gajanan</strong><small>Student</small></span>
+          </div>
+
+          <button class="btn-logout-icon" id="top-logout-btn" title="Sign out / Switch account">
+            🚪 <span>Logout</span>
+          </button>
+        </div>
+      </header>
+
+      <div id="page-content" class="page-content"></div>
+
+      <footer class="footer">
+        <span>© 2026 Scholarship Navigator · College Edition</span>
+        <span><i class="live-dot"></i> Official Scholarship Catalogue & Application Tracker</span>
+      </footer>
+    </main>
+  </div>
+
+  <div id="modal-root"></div>
+  <div id="toast-root" aria-live="polite"></div>
+  <script src="app.js"></script>
+</body>
+</html>

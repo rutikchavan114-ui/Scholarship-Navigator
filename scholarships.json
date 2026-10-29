@@ -1,0 +1,617 @@
+{
+  "academicYear": "2026-27",
+  "lastVerified": "2026-10-17",
+  "notice": "Official programme listings and application dates are a point-in-time snapshot. Confirm eligibility, amount, documents, and current status on the official provider portal before applying.",
+  "schemes": [
+    {
+      "id": 101,
+      "name": "PM-USP Central Sector Scheme of Scholarship for College and University Students (CSSS)",
+      "provider": "Department of Higher Education, Government of India",
+      "initials": "CSSS",
+      "tone": "peach",
+      "amount": 12000,
+      "deadline": "2026-10-31",
+      "type": "Merit-based",
+      "level": "Undergraduate",
+      "desc": "Renewal applications are listed as open for academic year 2026-27. Fresh applications are not shown as open in the current NSP notice. The scheme supports meritorious college and university students.",
+      "benefit": "₹12,000 per year for undergraduate study years 1–3; later-year and postgraduate rates differ. See the current official rules.",
+      "applicationMode": "Renewal only (currently listed)",
+      "status": "Renewal open on NSP",
+      "tags": [
+        "Government",
+        "NSP",
+        "Renewal"
+      ],
+      "docs": [
+        "Class 12 marksheet",
+        "Previous-year marksheet",
+        "Income certificate",
+        "Bank account details"
+      ],
+      "featured": true,
+      "portalUrl": "https://scholarships.gov.in/All-Scholarships",
+      "sourceUrl": "https://scholarships.gov.in/Students",
+      "sourceName": "National Scholarship Portal · Student announcements",
+      "eligibilitySummary": "Fresh applicants generally need to be above the 80th percentile in their Class 12 board stream, be in a regular course, and have annual family income up to ₹4.5 lakh. Current NSP notice lists renewal applications open; verify your case.",
+      "eligibility": {
+        "maxIncome": 450000,
+        "domicile": "All",
+        "renewalOnly": true
+      },
+      "matchConfidence": "Indicative only",
+      "guidelinesUrl": "https://www.education.gov.in/sites/upload_files/mhrd/files/upload_document/PM_USP_CSSS_guidelines_updated.pdf",
+      "translations": {
+        "hi": {
+          "desc": "शैक्षणिक वर्ष 2026-27 के लिए नवीनीकरण आवेदन खुले दिखाए गए हैं। नए आवेदन वर्तमान NSP सूचना में खुले नहीं दिखते।",
+          "benefit": "स्नातक के पहले 3 वर्षों में ₹12,000 प्रति वर्ष; आगे के वर्षों और स्नातकोत्तर के लिए राशि अलग है। वर्तमान नियम देखें।",
+          "applicationMode": "अभी केवल नवीनीकरण आवेदन खुले दिखाए गए हैं",
+          "status": "NSP पर नवीनीकरण आवेदन खुले",
+          "eligibilitySummary": "नए आवेदकों के लिए सामान्यतः कक्षा 12 की संबंधित स्ट्रीम में 80वें पर्सेंटाइल से ऊपर, नियमित कोर्स और परिवार की वार्षिक आय ₹4.5 लाख तक होना आवश्यक है। अभी NSP पर नवीनीकरण आवेदन खुले दिखाए गए हैं; अपनी स्थिति जाँचें।"
+        },
+        "mr": {
+          "desc": "शैक्षणिक वर्ष 2026-27 साठी नूतनीकरण अर्ज खुले दाखवले आहेत. नवीन अर्ज सध्याच्या NSP सूचनेत खुले दिसत नाहीत.",
+          "benefit": "पदवीच्या पहिल्या 3 वर्षांसाठी दरवर्षी ₹12,000; पुढील वर्षे आणि पदव्युत्तर अभ्यासासाठी रक्कम वेगळी आहे. सध्याचे नियम पहा.",
+          "applicationMode": "सध्या फक्त नूतनीकरण अर्ज खुले दाखवले आहेत",
+          "status": "NSP वर नूतनीकरण अर्ज खुले",
+          "eligibilitySummary": "नवीन अर्जदारांसाठी साधारणपणे बारावीच्या संबंधित शाखेत 80व्या पर्सेंटाइलपेक्षा जास्त गुण, नियमित अभ्यासक्रम आणि वार्षिक कौटुंबिक उत्पन्न ₹4.5 लाखांपर्यंत असणे आवश्यक आहे. सध्या NSP वर नूतनीकरण अर्ज खुले आहेत; तुमची स्थिती तपासा."
+        }
+      }
+    },
+    {
+      "id": 102,
+      "name": "AICTE Pragati Scholarship Scheme for Girl Students (Technical Degree)",
+      "provider": "All India Council for Technical Education (AICTE)",
+      "initials": "PR",
+      "tone": "mint",
+      "amount": 50000,
+      "deadline": "2026-10-31",
+      "type": "Merit-based",
+      "level": "Technical degree",
+      "desc": "AICTE scholarship for eligible girl students enrolled in technical degree programmes. NSP lists the 2026-27 application window as open from 1 June to 31 October 2026.",
+      "benefit": "Up to ₹50,000 per year (subject to current scheme rules)",
+      "applicationMode": "Fresh / renewal as permitted by NSP",
+      "status": "Applications listed open on NSP",
+      "tags": [
+        "Government",
+        "AICTE",
+        "Women in Technology"
+      ],
+      "docs": [
+        "AICTE-approved admission proof",
+        "Income certificate",
+        "Previous-year marksheet",
+        "Bank details"
+      ],
+      "featured": true,
+      "portalUrl": "https://scholarships.gov.in/All-Scholarships",
+      "sourceUrl": "https://www.myscheme.gov.in/schemes/psgs-deg",
+      "sourceName": "National Scholarship Portal · All Scholarships",
+      "eligibilitySummary": "Girl students in first year of a technical degree or second year through lateral entry at an AICTE-approved institution; family income up to ₹8 lakh per year. Two girl children per family. Check the current scheme rules.",
+      "eligibility": {
+        "gender": "Female",
+        "isStem": true,
+        "courseKeywords": [
+          "b.tech",
+          "engineering",
+          "technology",
+          "computer",
+          "technical"
+        ],
+        "maxIncome": 800000
+      },
+      "matchConfidence": "Indicative only",
+      "translations": {
+        "hi": {
+          "desc": "AICTE की छात्रवृत्ति पात्र छात्राओं के लिए है जो तकनीकी डिग्री कोर्स में पढ़ती हैं। NSP पर 2026-27 आवेदन 1 जून से 31 अक्टूबर 2026 तक खुले दिखाए गए हैं।",
+          "benefit": "वर्तमान योजना नियमों के अनुसार प्रति वर्ष ₹50,000 तक",
+          "applicationMode": "NSP पर दिए गए नए / नवीनीकरण नियम देखें",
+          "status": "NSP पर आवेदन खुले दिखाए गए हैं",
+          "eligibilitySummary": "AICTE से मान्यता प्राप्त तकनीकी डिग्री के पहले वर्ष या लेटरल एंट्री से दूसरे वर्ष में पढ़ने वाली छात्राएँ। वार्षिक परिवार आय ₹8 लाख तक; एक परिवार की अधिकतम दो बेटियाँ। वर्तमान नियम जाँचें।"
+        },
+        "mr": {
+          "desc": "AICTE ची शिष्यवृत्ती पात्र विद्यार्थिनींसाठी आहे ज्या तांत्रिक पदवी अभ्यासक्रमात शिकतात. NSP वर 2026-27 चे अर्ज 1 जून ते 31 ऑक्टोबर 2026 खुले दाखवले आहेत.",
+          "benefit": "सध्याच्या योजनेच्या नियमांनुसार दरवर्षी ₹50,000 पर्यंत",
+          "applicationMode": "NSP वरील नवीन / नूतनीकरणाचे नियम तपासा",
+          "status": "NSP वर अर्ज खुले दाखवले आहेत",
+          "eligibilitySummary": "AICTE मान्यताप्राप्त तांत्रिक पदवीच्या पहिल्या वर्षात किंवा थेट प्रवेशाने दुसऱ्या वर्षात शिकणाऱ्या विद्यार्थिनी. वार्षिक कौटुंबिक उत्पन्न ₹8 लाखांपर्यंत; एका कुटुंबातील जास्तीत जास्त दोन मुली. सध्याचे नियम तपासा."
+        }
+      }
+    },
+    {
+      "id": 103,
+      "name": "AICTE Saksham Scholarship Scheme for Specially-Abled Students (Technical Degree)",
+      "provider": "All India Council for Technical Education (AICTE)",
+      "initials": "SA",
+      "tone": "blue",
+      "amount": 50000,
+      "deadline": "2026-10-31",
+      "type": "Need-based",
+      "level": "Technical degree",
+      "desc": "Scholarship support for specially-abled students pursuing eligible AICTE-approved technical degree programmes. NSP lists the 2026-27 application window as open through 31 October 2026.",
+      "benefit": "₹50,000 per year under current published scheme details; confirm current terms",
+      "applicationMode": "Fresh / renewal as permitted by NSP",
+      "status": "Applications listed open on NSP",
+      "tags": [
+        "Government",
+        "AICTE",
+        "Disability Support"
+      ],
+      "docs": [
+        "Disability certificate (40% or more)",
+        "AICTE-approved admission proof",
+        "Income certificate",
+        "Bank details"
+      ],
+      "featured": true,
+      "portalUrl": "https://scholarships.gov.in/All-Scholarships",
+      "sourceUrl": "https://www.myscheme.gov.in/schemes/sak-deg?hl=en-IN",
+      "sourceName": "MyScheme · Government of India scheme details",
+      "eligibilitySummary": "For students with benchmark disability of at least 40% in an eligible AICTE-approved technical degree course. Published scheme details state annual family income up to ₹8 lakh; verify the current notice.",
+      "eligibility": {
+        "maxIncome": 800000,
+        "isPwd": true,
+        "courseKeywords": [
+          "b.tech",
+          "engineering",
+          "technology",
+          "computer",
+          "technical"
+        ]
+      },
+      "matchConfidence": "Indicative only",
+      "translations": {
+        "hi": {
+          "desc": "AICTE से मान्यता प्राप्त तकनीकी डिग्री में पढ़ने वाले दिव्यांग विद्यार्थियों के लिए सहायता। NSP पर 2026-27 आवेदन 31 अक्टूबर 2026 तक खुले दिखाए गए हैं।",
+          "benefit": "प्रकाशित योजना जानकारी में ₹50,000 प्रति वर्ष; मौजूदा शर्तें जाँचें",
+          "applicationMode": "NSP पर दिए गए नए / नवीनीकरण नियम देखें",
+          "status": "NSP पर आवेदन खुले दिखाए गए हैं",
+          "eligibilitySummary": "AICTE तकनीकी डिग्री कोर्स और कम से कम 40% दिव्यांगता प्रमाणपत्र आवश्यक है। प्रकाशित नियमों में वार्षिक परिवार आय की सीमा ₹8 लाख है। आवेदन से पहले वर्तमान नियम देखें।"
+        },
+        "mr": {
+          "desc": "AICTE मान्यताप्राप्त तांत्रिक पदवी अभ्यासक्रमात शिकणाऱ्या दिव्यांग विद्यार्थ्यांसाठी मदत. NSP वर 2026-27 चे अर्ज 31 ऑक्टोबर 2026 पर्यंत खुले दाखवले आहेत.",
+          "benefit": "प्रकाशित योजनेनुसार दरवर्षी ₹50,000; सध्याच्या अटी तपासा",
+          "applicationMode": "NSP वरील नवीन / नूतनीकरणाचे नियम तपासा",
+          "status": "NSP वर अर्ज खुले दाखवले आहेत",
+          "eligibilitySummary": "AICTE तांत्रिक पदवी अभ्यासक्रम आणि किमान 40% दिव्यांगत्वाचे प्रमाणपत्र आवश्यक. प्रकाशित नियमांत वार्षिक कौटुंबिक उत्पन्नाची मर्यादा ₹8 लाख आहे. अर्जापूर्वी सध्याचे नियम तपासा."
+        }
+      }
+    },
+    {
+      "id": 104,
+      "name": "AICTE Swanath Scholarship Scheme (Technical Diploma)",
+      "provider": "All India Council for Technical Education (AICTE)",
+      "initials": "SW",
+      "tone": "peach",
+      "amount": 0,
+      "deadline": "2026-10-31",
+      "type": "Need-based",
+      "level": "Technical diploma",
+      "desc": "Support for eligible students in AICTE-approved technical diploma programmes who meet the scheme's specified family or personal circumstances. NSP lists applications through 31 October 2026.",
+      "benefit": "See the current NSP scheme specification for the applicable amount and conditions",
+      "applicationMode": "Fresh / renewal as permitted by NSP",
+      "status": "Applications listed open on NSP",
+      "tags": [
+        "Government",
+        "AICTE",
+        "Technical Education"
+      ],
+      "docs": [
+        "AICTE-approved admission proof",
+        "Income certificate",
+        "Relevant supporting certificate",
+        "Bank details"
+      ],
+      "featured": false,
+      "portalUrl": "https://scholarships.gov.in/All-Scholarships",
+      "sourceUrl": "https://scholarships.gov.in/All-Scholarships",
+      "sourceName": "National Scholarship Portal · All Scholarships",
+      "eligibilitySummary": "For eligible AICTE technical diploma students within the specified target groups. Group, income, year-of-study and document rules must be checked in the current scheme specification.",
+      "eligibility": {
+        "maxIncome": 800000,
+        "courseKeywords": [
+          "diploma",
+          "technical"
+        ]
+      },
+      "matchConfidence": "Indicative only",
+      "translations": {
+        "hi": {
+          "desc": "AICTE से मान्यता प्राप्त तकनीकी डिप्लोमा के विद्यार्थियों के लिए सहायता। पात्रता में विशेष पारिवारिक या व्यक्तिगत परिस्थितियाँ लागू होती हैं।",
+          "benefit": "राशि और शर्तों के लिए NSP पर वर्तमान योजना विवरण देखें",
+          "applicationMode": "NSP की वर्तमान योजना जानकारी देखें",
+          "status": "NSP पर आवेदन खुले दिखाए गए हैं",
+          "eligibilitySummary": "AICTE तकनीकी डिप्लोमा के विद्यार्थियों के लिए; निर्धारित लक्षित समूह, आय, पढ़ाई के वर्ष और दस्तावेज़ की शर्तें लागू होती हैं। आधिकारिक योजना विवरण देखें।"
+        },
+        "mr": {
+          "desc": "AICTE मान्यताप्राप्त तांत्रिक पदविका विद्यार्थ्यांसाठी मदत. पात्रतेसाठी विशिष्ट कौटुंबिक किंवा वैयक्तिक परिस्थिती लागू होते.",
+          "benefit": "रक्कम आणि अटींसाठी NSP वरील सध्याचे योजना तपशील पहा",
+          "applicationMode": "NSP वरील सध्याची योजना माहिती पहा",
+          "status": "NSP वर अर्ज खुले दाखवले आहेत",
+          "eligibilitySummary": "AICTE तांत्रिक पदविका विद्यार्थ्यांसाठी; लक्ष्य गट, उत्पन्न, शिक्षणाचे वर्ष आणि कागदपत्रांच्या अटी लागू होतात. अधिकृत योजना तपशील पहा."
+        }
+      }
+    },
+    {
+      "id": 105,
+      "name": "National Scholarship for Post Graduate Studies",
+      "provider": "University Grants Commission (UGC)",
+      "initials": "UGC",
+      "tone": "mint",
+      "amount": 0,
+      "deadline": "2026-10-31",
+      "type": "Merit-based",
+      "level": "Postgraduate",
+      "desc": "UGC postgraduate scholarship programme. NSP lists the 2026-27 application window from 16 September through 31 October 2026.",
+      "benefit": "See current UGC/NSP scheme specification",
+      "applicationMode": "Fresh / renewal status shown on NSP",
+      "status": "Applications listed open on NSP",
+      "tags": [
+        "Government",
+        "UGC",
+        "Postgraduate"
+      ],
+      "docs": [
+        "Graduation marksheets",
+        "Postgraduate admission proof",
+        "Income / category documents as specified"
+      ],
+      "featured": false,
+      "portalUrl": "https://scholarships.gov.in/All-Scholarships",
+      "sourceUrl": "https://scholarships.gov.in/All-Scholarships",
+      "sourceName": "National Scholarship Portal · All Scholarships",
+      "eligibilitySummary": "For eligible postgraduate students under the current UGC scheme rules. Course, age, institution and other conditions apply; check the official specification.",
+      "eligibility": {
+        "courseKeywords": [
+          "m.tech",
+          "m.sc",
+          "m.a.",
+          "m.com",
+          "postgraduate",
+          "master"
+        ]
+      },
+      "matchConfidence": "Not enough profile fields to assess",
+      "translations": {
+        "hi": {
+          "desc": "UGC की स्नातकोत्तर छात्रवृत्ति योजना। NSP पर 2026-27 आवेदन 16 सितंबर से 31 अक्टूबर 2026 तक खुले दिखाए गए हैं।",
+          "benefit": "वर्तमान UGC / NSP योजना विवरण देखें",
+          "applicationMode": "NSP पर वर्तमान स्थिति देखें",
+          "status": "NSP पर आवेदन खुले दिखाए गए हैं",
+          "eligibilitySummary": "स्नातकोत्तर विद्यार्थियों के लिए। पाठ्यक्रम, आयु, संस्थान और अन्य शर्तों के लिए आधिकारिक विवरण जाँचें।"
+        },
+        "mr": {
+          "desc": "UGC ची पदव्युत्तर शिष्यवृत्ती योजना. NSP वर 2026-27 चे अर्ज 16 सप्टेंबर ते 31 ऑक्टोबर 2026 खुले दाखवले आहेत.",
+          "benefit": "UGC / NSP वरील सध्याचे योजना तपशील पहा",
+          "applicationMode": "NSP वरील सध्याची स्थिती तपासा",
+          "status": "NSP वर अर्ज खुले दाखवले आहेत",
+          "eligibilitySummary": "पदव्युत्तर विद्यार्थ्यांसाठी. अभ्यासक्रम, वय, संस्था आणि इतर अटींसाठी अधिकृत तपशील तपासा."
+        }
+      }
+    },
+    {
+      "id": 106,
+      "name": "Ishan Uday Special Scholarship Scheme for North Eastern Region",
+      "provider": "University Grants Commission (UGC)",
+      "initials": "IU",
+      "tone": "blue",
+      "amount": 80000,
+      "deadline": "2026-10-31",
+      "type": "Merit-based",
+      "level": "Undergraduate · NER",
+      "desc": "Financial support for eligible first-year regular undergraduate students from the North Eastern Region. NSP lists the 2026-27 window from 16 September to 31 October 2026.",
+      "benefit": "UGC scheme page lists ₹80,000 per annum; confirm current award rules",
+      "applicationMode": "First-year eligibility; confirm renewal rules",
+      "status": "Applications listed open on NSP",
+      "tags": [
+        "Government",
+        "UGC",
+        "North Eastern Region"
+      ],
+      "docs": [
+        "Class 12 certificate from an NER school",
+        "First-year admission proof",
+        "Income certificate",
+        "Bank details"
+      ],
+      "featured": false,
+      "portalUrl": "https://scholarships.gov.in/All-Scholarships",
+      "sourceUrl": "https://www.ugc.gov.in/Scholarships/stu_Scholarship5",
+      "sourceName": "University Grants Commission · Ishan Uday",
+      "eligibilitySummary": "Class 12 passed from a school in the North Eastern Region, admitted to the first year of a regular full-time eligible UG degree, and parental income below ₹4.5 lakh per year.",
+      "eligibility": {
+        "maxIncome": 450000,
+        "domicile": [
+          "Arunachal Pradesh",
+          "Assam",
+          "Manipur",
+          "Meghalaya",
+          "Mizoram",
+          "Nagaland",
+          "Sikkim",
+          "Tripura"
+        ]
+      },
+      "matchConfidence": "Indicative only",
+      "translations": {
+        "hi": {
+          "desc": "उत्तर-पूर्व क्षेत्र के पात्र विद्यार्थियों के लिए नियमित स्नातक के पहले वर्ष में आर्थिक सहायता। NSP पर आवेदन 31 अक्टूबर 2026 तक खुले दिखाए गए हैं।",
+          "benefit": "UGC योजना पृष्ठ पर ₹80,000 प्रति वर्ष दिया गया है; वर्तमान नियम जाँचें",
+          "applicationMode": "पहले वर्ष के लिए पात्रता; नवीनीकरण नियम जाँचें",
+          "status": "NSP पर आवेदन खुले दिखाए गए हैं",
+          "eligibilitySummary": "कक्षा 12 उत्तर-पूर्व क्षेत्र के स्कूल से पूरी की हो, नियमित पूर्णकालिक स्नातक के पहले वर्ष में प्रवेश हो, और अभिभावकों की आय ₹4.5 लाख प्रति वर्ष से कम हो।"
+        },
+        "mr": {
+          "desc": "ईशान्य भारतातील पात्र विद्यार्थ्यांना नियमित पदवीच्या पहिल्या वर्षासाठी आर्थिक मदत. NSP वर अर्ज 31 ऑक्टोबर 2026 पर्यंत खुले दाखवले आहेत.",
+          "benefit": "UGC योजनेच्या पृष्ठावर दरवर्षी ₹80,000 नमूद आहे; सध्याचे नियम तपासा",
+          "applicationMode": "पहिल्या वर्षासाठी पात्रता; नूतनीकरणाचे नियम तपासा",
+          "status": "NSP वर अर्ज खुले दाखवले आहेत",
+          "eligibilitySummary": "बारावीचे शिक्षण ईशान्य भारतातील शाळेतून पूर्ण केलेले असावे, नियमित पूर्णवेळ पदवीच्या पहिल्या वर्षात प्रवेश असावा आणि पालकांचे उत्पन्न दरवर्षी ₹4.5 लाखांपेक्षा कमी असावे."
+        }
+      }
+    },
+    {
+      "id": 107,
+      "name": "National Fellowship and Scholarship for Higher Education of ST Students",
+      "provider": "Ministry of Tribal Affairs, Government of India",
+      "initials": "ST",
+      "tone": "peach",
+      "amount": 0,
+      "deadline": "2026-10-31",
+      "type": "Need-based",
+      "level": "Higher education",
+      "desc": "Central scholarship programme for eligible Scheduled Tribe students pursuing higher education. NSP lists the 2026-27 application window through 31 October 2026.",
+      "benefit": "Tuition and maintenance support vary by course and current scheme rules",
+      "applicationMode": "See current NSP scheme specification",
+      "status": "Applications listed open on NSP",
+      "tags": [
+        "Government",
+        "ST",
+        "Higher Education"
+      ],
+      "docs": [
+        "ST certificate",
+        "Income certificate",
+        "Previous-year marksheet",
+        "Admission and fee proof"
+      ],
+      "featured": false,
+      "portalUrl": "https://scholarships.gov.in/All-Scholarships",
+      "sourceUrl": "https://scholarships.gov.in/All-Scholarships",
+      "sourceName": "National Scholarship Portal · All Scholarships",
+      "eligibilitySummary": "For students belonging to Scheduled Tribes who meet the specific institution, course, family-income and other scheme rules. Confirm the current specification.",
+      "eligibility": {
+        "category": "ST"
+      },
+      "matchConfidence": "Indicative only",
+      "translations": {
+        "hi": {
+          "desc": "उच्च शिक्षा लेने वाले पात्र अनुसूचित जनजाति विद्यार्थियों के लिए केंद्र सरकार की छात्रवृत्ति। NSP पर 2026-27 आवेदन 31 अक्टूबर तक खुले दिखाए गए हैं।",
+          "benefit": "कोर्स और वर्तमान योजना नियमों के अनुसार ट्यूशन तथा रखरखाव सहायता अलग-अलग होती है",
+          "applicationMode": "वर्तमान NSP योजना विवरण देखें",
+          "status": "NSP पर आवेदन खुले दिखाए गए हैं",
+          "eligibilitySummary": "अनुसूचित जनजाति के विद्यार्थियों के लिए। संस्थान, पाठ्यक्रम, परिवार की आय और अन्य शर्तें लागू होती हैं; वर्तमान नियम देखें।"
+        },
+        "mr": {
+          "desc": "उच्च शिक्षण घेणाऱ्या पात्र अनुसूचित जमातीच्या विद्यार्थ्यांसाठी केंद्र सरकारची शिष्यवृत्ती. NSP वर 2026-27 चे अर्ज 31 ऑक्टोबरपर्यंत खुले दाखवले आहेत.",
+          "benefit": "अभ्यासक्रम व सध्याच्या नियमांनुसार शिक्षण शुल्क आणि निर्वाह मदत बदलते",
+          "applicationMode": "NSP वरील सध्याचे योजना तपशील पहा",
+          "status": "NSP वर अर्ज खुले दाखवले आहेत",
+          "eligibilitySummary": "अनुसूचित जमातीच्या विद्यार्थ्यांसाठी. संस्था, अभ्यासक्रम, कौटुंबिक उत्पन्न आणि इतर अटी लागू होतात; सध्याचे नियम तपासा."
+        }
+      }
+    },
+    {
+      "id": 108,
+      "name": "PM YASASVI Top Class Education in College for OBC, EBC and DNT Students",
+      "provider": "Department of Social Justice and Empowerment, Government of India",
+      "initials": "YS",
+      "tone": "mint",
+      "amount": 0,
+      "deadline": "2026-10-31",
+      "type": "Need-based",
+      "level": "College",
+      "desc": "Top-class college education scheme for eligible OBC, EBC and DNT students. NSP lists applications for academic year 2026-27 through 31 October 2026.",
+      "benefit": "Varies by course and current scheme guidelines",
+      "applicationMode": "See current NSP scheme specification",
+      "status": "Applications listed open on NSP",
+      "tags": [
+        "Government",
+        "OBC",
+        "EBC",
+        "DNT"
+      ],
+      "docs": [
+        "Category certificate",
+        "Income certificate",
+        "Admission proof",
+        "Previous-year marksheet"
+      ],
+      "featured": false,
+      "portalUrl": "https://scholarships.gov.in/All-Scholarships",
+      "sourceUrl": "https://scholarships.gov.in/All-Scholarships",
+      "sourceName": "National Scholarship Portal · All Scholarships",
+      "eligibilitySummary": "For eligible OBC, EBC and DNT students admitted to notified top-class institutions. Income ceiling, institution list and award details are scheme-specific; verify them on NSP.",
+      "eligibility": {
+        "category": "OBC"
+      },
+      "matchConfidence": "Indicative only",
+      "translations": {
+        "hi": {
+          "desc": "कॉलेज में पढ़ने वाले पात्र OBC, EBC और DNT विद्यार्थियों के लिए उच्च श्रेणी शिक्षा योजना। NSP पर 2026-27 आवेदन 31 अक्टूबर तक खुले दिखाए गए हैं।",
+          "benefit": "राशि पाठ्यक्रम और वर्तमान योजना नियमों के अनुसार बदलती है",
+          "applicationMode": "वर्तमान NSP योजना विवरण देखें",
+          "status": "NSP पर आवेदन खुले दिखाए गए हैं",
+          "eligibilitySummary": "सूचीबद्ध उच्च श्रेणी संस्थानों में प्रवेश लेने वाले पात्र OBC, EBC और DNT विद्यार्थियों के लिए। आय सीमा, संस्थान और लाभ योजना के नियमों के अनुसार हैं।"
+        },
+        "mr": {
+          "desc": "महाविद्यालयात शिकणाऱ्या पात्र OBC, EBC आणि DNT विद्यार्थ्यांसाठी उच्च दर्जाच्या शिक्षणाची योजना. NSP वर 2026-27 चे अर्ज 31 ऑक्टोबरपर्यंत खुले दाखवले आहेत.",
+          "benefit": "रक्कम अभ्यासक्रम आणि योजनेच्या सध्याच्या नियमांनुसार बदलते",
+          "applicationMode": "NSP वरील सध्याचे योजना तपशील पहा",
+          "status": "NSP वर अर्ज खुले दाखवले आहेत",
+          "eligibilitySummary": "सूचित उच्च दर्जाच्या संस्थांमध्ये प्रवेश घेतलेल्या पात्र OBC, EBC आणि DNT विद्यार्थ्यांसाठी. उत्पन्न मर्यादा, संस्था आणि लाभ योजनेच्या नियमांत दिलेले आहेत."
+        }
+      }
+    },
+    {
+      "id": 109,
+      "name": "Maharashtra Post-Matric Scholarship to OBC Girls in Professional Courses",
+      "provider": "OBC, SEBC, VJNT & SBC Welfare Department, Government of Maharashtra",
+      "initials": "MH",
+      "tone": "blue",
+      "amount": 0,
+      "deadline": null,
+      "type": "Need-based",
+      "level": "Professional course · Maharashtra",
+      "desc": "MahaDBT scheme for eligible Maharashtra-resident OBC girls in approved professional courses. The official scheme page describes tuition and examination-fee support plus maintenance allowance by course group.",
+      "benefit": "Tuition/exam fees and course-group maintenance allowance; see official rules",
+      "applicationMode": "2026-27 applications use MahaDBT 2.0; check the live application window",
+      "status": "Check current MahaDBT 2.0 window",
+      "tags": [
+        "Maharashtra",
+        "OBC",
+        "Women",
+        "Professional Course"
+      ],
+      "docs": [
+        "Maharashtra domicile certificate",
+        "OBC certificate",
+        "Income / non-creamy-layer certificate",
+        "CAP allotment and previous-year marksheets"
+      ],
+      "featured": true,
+      "portalUrl": "https://mahadbt2.maharashtra.gov.in/",
+      "sourceUrl": "https://mahadbt.maharashtra.gov.in/SchemeData/SchemeData?str=E9DDFA703C38E51A20E2AADEC5FCAFCAA9EF15C9E7BE6DA49EFF8397D1CB5063",
+      "sourceName": "MahaDBT · Official scheme details",
+      "eligibilitySummary": "Maharashtra resident, OBC girl student, enrolled in an approved professional course; CAP admission and applicable income/category documents required. Check course-specific rules.",
+      "eligibility": {
+        "domicile": "Maharashtra",
+        "gender": "Female",
+        "category": "OBC"
+      },
+      "matchConfidence": "Indicative only",
+      "translations": {
+        "hi": {
+          "desc": "महाराष्ट्र के पात्र OBC छात्राओं के लिए व्यावसायिक पाठ्यक्रम में MahaDBT योजना। आधिकारिक विवरण में फीस सहायता और पाठ्यक्रम समूह के अनुसार रखरखाव भत्ता है।",
+          "benefit": "ट्यूशन / परीक्षा फीस और पाठ्यक्रम समूह के अनुसार भत्ता; आधिकारिक नियम देखें",
+          "applicationMode": "2026-27 आवेदन MahaDBT 2.0 से होंगे; वर्तमान आवेदन अवधि जाँचें",
+          "status": "MahaDBT 2.0 पर वर्तमान आवेदन अवधि जाँचें",
+          "eligibilitySummary": "महाराष्ट्र निवासी OBC छात्रा, मान्य व्यावसायिक पाठ्यक्रम में प्रवेश; CAP प्रवेश तथा लागू आय / वर्ग दस्तावेज़ आवश्यक हैं। पाठ्यक्रम की शर्तें जाँचें।"
+        },
+        "mr": {
+          "desc": "महाराष्ट्रातील पात्र OBC विद्यार्थिनींसाठी व्यावसायिक अभ्यासक्रमाची MahaDBT योजना. अधिकृत माहितीत शुल्क मदत आणि अभ्यासक्रम गटानुसार निर्वाह भत्ता दिला आहे.",
+          "benefit": "शिक्षण / परीक्षा शुल्क आणि अभ्यासक्रम गटानुसार भत्ता; अधिकृत नियम पहा",
+          "applicationMode": "2026-27 चे अर्ज MahaDBT 2.0 वरून होतील; सध्याची अर्ज मुदत तपासा",
+          "status": "MahaDBT 2.0 वरील सध्याची अर्ज मुदत तपासा",
+          "eligibilitySummary": "महाराष्ट्रातील रहिवासी OBC विद्यार्थिनी, मान्य व्यावसायिक अभ्यासक्रमात प्रवेश; CAP प्रवेश आणि लागू उत्पन्न / प्रवर्ग कागदपत्रे आवश्यक. अभ्यासक्रमाच्या अटी तपासा."
+        }
+      }
+    },
+    {
+      "id": 110,
+      "name": "Maharashtra Post-Matric Scholarship for Scheduled Tribe Students",
+      "provider": "Tribal Development Department, Government of Maharashtra",
+      "initials": "TR",
+      "tone": "peach",
+      "amount": 0,
+      "deadline": null,
+      "type": "Need-based",
+      "level": "Post-matric · Maharashtra",
+      "desc": "MahaDBT post-matric support for eligible Scheduled Tribe students studying in India. The official scheme information lists income and academic progression conditions.",
+      "benefit": "Maintenance and study allowances vary by course group; see official rules",
+      "applicationMode": "2026-27 applications use MahaDBT 2.0; check the live application window",
+      "status": "Check current MahaDBT 2.0 window",
+      "tags": [
+        "Maharashtra",
+        "ST",
+        "Post-matric"
+      ],
+      "docs": [
+        "ST certificate",
+        "Income certificate",
+        "Previous-year marksheet",
+        "Caste validity certificate where applicable"
+      ],
+      "featured": false,
+      "portalUrl": "https://mahadbt2.maharashtra.gov.in/",
+      "sourceUrl": "https://mahadbt.maharashtra.gov.in/SchemeData/SchemeData?str=E9DDFA703C38E51A739268F02CEC37EC",
+      "sourceName": "MahaDBT · Official scheme details",
+      "eligibilitySummary": "Official scheme page lists ST category, family income up to ₹2.5 lakh and minimum 10th pass, with course and renewal rules. Confirm on MahaDBT 2.0 for the current year.",
+      "eligibility": {
+        "domicile": "Maharashtra",
+        "category": "ST",
+        "maxIncome": 250000
+      },
+      "matchConfidence": "Indicative only",
+      "translations": {
+        "hi": {
+          "desc": "भारत में आगे की पढ़ाई करने वाले पात्र अनुसूचित जनजाति विद्यार्थियों के लिए MahaDBT की पोस्ट-मैट्रिक सहायता।",
+          "benefit": "रखरखाव और अध्ययन भत्ता पाठ्यक्रम समूह के अनुसार बदलता है",
+          "applicationMode": "2026-27 आवेदन MahaDBT 2.0 से होंगे; वर्तमान आवेदन अवधि जाँचें",
+          "status": "MahaDBT 2.0 पर वर्तमान आवेदन अवधि जाँचें",
+          "eligibilitySummary": "आधिकारिक विवरण में ST वर्ग, परिवार की आय ₹2.5 लाख तक और कम से कम 10वीं पास की शर्त है। वर्तमान वर्ष के नियम MahaDBT 2.0 पर जाँचें।"
+        },
+        "mr": {
+          "desc": "भारतात पुढील शिक्षण घेणाऱ्या पात्र अनुसूचित जमातीच्या विद्यार्थ्यांसाठी MahaDBT ची पोस्ट-मॅट्रिक मदत.",
+          "benefit": "निर्वाह आणि शैक्षणिक भत्ता अभ्यासक्रम गटानुसार बदलतो",
+          "applicationMode": "2026-27 चे अर्ज MahaDBT 2.0 वरून होतील; सध्याची अर्ज मुदत तपासा",
+          "status": "MahaDBT 2.0 वरील सध्याची अर्ज मुदत तपासा",
+          "eligibilitySummary": "अधिकृत माहितीत ST प्रवर्ग, कुटुंबाचे उत्पन्न ₹2.5 लाखांपर्यंत आणि किमान दहावी उत्तीर्ण अशी अट आहे. चालू वर्षाचे नियम MahaDBT 2.0 वर तपासा."
+        }
+      }
+    },
+    {
+      "id": 111,
+      "name": "Payment of Tuition Fees and Examination Fees to OBC Girls Pursuing Professional Courses",
+      "provider": "OBC, SEBC, VJNT & SBC Welfare Department, Government of Maharashtra",
+      "initials": "TF",
+      "tone": "mint",
+      "amount": 0,
+      "deadline": null,
+      "type": "Need-based",
+      "level": "Professional course · Maharashtra",
+      "desc": "MahaDBT fee reimbursement scheme. Its official page says eligible OBC girls in approved professional courses may receive 100% tuition and examination-fee reimbursement under the stated conditions.",
+      "benefit": "100% tuition and examination fees under current published conditions",
+      "applicationMode": "2026-27 applications use MahaDBT 2.0; check the live application window",
+      "status": "Check current MahaDBT 2.0 window",
+      "tags": [
+        "Maharashtra",
+        "OBC",
+        "Women",
+        "Fee Reimbursement"
+      ],
+      "docs": [
+        "Maharashtra domicile certificate",
+        "OBC certificate",
+        "Income / non-creamy-layer certificate",
+        "CAP allotment and marksheets"
+      ],
+      "featured": false,
+      "portalUrl": "https://mahadbt2.maharashtra.gov.in/",
+      "sourceUrl": "https://mahadbt.maharashtra.gov.in/SchemeData/SchemeData?str=E9DDFA703C38E51A861D18FEEFAC4F5F6568CABC51F37B2D8E783259DE953673",
+      "sourceName": "MahaDBT · Official scheme details",
+      "eligibilitySummary": "Maharashtra resident OBC girl student in a government-approved professional course; CAP admission and scheme-specific category/income documentation apply.",
+      "eligibility": {
+        "domicile": "Maharashtra",
+        "gender": "Female",
+        "category": "OBC"
+      },
+      "matchConfidence": "Indicative only",
+      "translations": {
+        "hi": {
+          "desc": "महाराष्ट्र MahaDBT फीस प्रतिपूर्ति योजना। पात्र OBC छात्राओं को मान्य व्यावसायिक पाठ्यक्रम में शर्तों के अनुसार पूरी ट्यूशन और परीक्षा फीस मिल सकती है।",
+          "benefit": "प्रकाशित मौजूदा शर्तों के अंतर्गत 100% ट्यूशन और परीक्षा फीस",
+          "applicationMode": "2026-27 आवेदन MahaDBT 2.0 से होंगे; वर्तमान आवेदन अवधि जाँचें",
+          "status": "MahaDBT 2.0 पर वर्तमान आवेदन अवधि जाँचें",
+          "eligibilitySummary": "महाराष्ट्र निवासी OBC छात्रा मान्य व्यावसायिक पाठ्यक्रम में हो; CAP प्रवेश तथा वर्ग / आय के दस्तावेज़ लागू होते हैं।"
+        },
+        "mr": {
+          "desc": "महाराष्ट्र MahaDBT शुल्क परतावा योजना. पात्र OBC विद्यार्थिनींना मान्य व्यावसायिक अभ्यासक्रमासाठी अटींनुसार संपूर्ण शिक्षण व परीक्षा शुल्क मिळू शकते.",
+          "benefit": "प्रकाशित सध्याच्या अटींनुसार 100% शिक्षण व परीक्षा शुल्क",
+          "applicationMode": "2026-27 चे अर्ज MahaDBT 2.0 वरून होतील; सध्याची अर्ज मुदत तपासा",
+          "status": "MahaDBT 2.0 वरील सध्याची अर्ज मुदत तपासा",
+          "eligibilitySummary": "महाराष्ट्रातील रहिवासी OBC विद्यार्थिनी मान्य व्यावसायिक अभ्यासक्रमात असावी; CAP प्रवेश आणि प्रवर्ग / उत्पन्नाची कागदपत्रे लागू होतात."
+        }
+      }
+    }
+  ]
+}
